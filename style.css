@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-transform: capitalize;
+    padding: 0%;
+}
+nav{
+    background: #2a4fd4;
+    background: linear-gradient(358deg,rgba(42, 79, 212, 1) 25%, rgba(0, 212, 255, 1) 100%);
+}
+a {
+    text-decoration: none;
+    color: unset;
+}
+#fnav{
+    margin-bottom: 30px;
+}
+#logo {
+     font-size: 20px;
+     color: rgb(171, 188, 252);
+     text-transform :lowercase;
+    padding: 20px;
+    display: inline;
+    letter-spacing : 1px;
+    width: 20%;
+}
+#logo-blue-word {
+     color: rgb(122, 122, 186);
+}
+#ul1 {
+    display: inline;
+    width: 20%;
+    text-align: center;
+    margin-left: 50px;
+}
+.nav-items { 
+    list-style: none;
+    padding: 2px;
+    margin:15px;
+    display: inline;
+    color: white;
+    font-size: 15px;
+}
+#nav-search {
+    text-align: right;
+    box-shadow: 30px;
+    width: 200px;
+    margin-left: 110px;
+    color: rgb(150, 148, 148);
+    text-align: left;
+    height: 20px;
+}
+#flabel {
+    color: white;
+    padding: 20px;
+    font-family: tahoma;
+}
+#mainp {
+    color: white;
+    padding-left:20px;
+    padding-bottom: 20px;
+    font-family: tahoma;
+}
+#ul2 {
+    padding: 20px;
+    color: white;
+    
+}
+.main-bottons {
+    padding:7px 16px ;
+    display: inline;
+    border:1px white solid ;
+}
+.main-bottons:hover {
+    background-color: white;
+    color:#2a4fd4;
+}
+i {
+    margin-right: 7px;
+}
+aside {
+    width: 20%;
+    display: inline-block;
+    margin: 5px;
+    border: 1px black solid;
+}
+#ulsid {
+    color: rgb(52, 56, 56);
+    margin: 0 0 auto;
+    list-style: none;
+    padding: 0%;
+    font-family: cursive;
+}
+.sideli {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    margin: 0;
+    display: block;
+    transition: transform 0.2s ease; 
+    cursor: pointer;
+}
+.sideli:hover {
+    background-color: rgba(230, 221, 221, 0.342);
+    color: rgb(67, 127, 255);
+    transform: scale(1.05);
+    
+}
+section {
+    width: 80%;
+    padding: 20px;
+  }
+  
+  #uls2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .li-imgs {
+    width: 22%; 
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .im {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  .im:hover {
+    transform: scale(1.1); 
+  }
+  .main-container {
+    display: flex;
+    width: 100%;
+    align-items: flex-start; 
+  }
+  
